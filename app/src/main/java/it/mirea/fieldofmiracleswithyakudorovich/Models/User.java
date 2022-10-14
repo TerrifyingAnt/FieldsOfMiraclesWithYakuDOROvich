@@ -1,7 +1,7 @@
 package it.mirea.fieldofmiracleswithyakudorovich.Models;
 
 public class User {
-    private String name, email, password;
+    private String name, email, password, image;
 
     public String getName() {
         return name;
@@ -25,5 +25,13 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }
